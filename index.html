@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HookSmith â AI Hook Generator for Creators</title>
+<title>HookSmith Ã¢ÂÂ AI Hook Generator for Creators</title>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -102,11 +102,11 @@ footer{text-align:center;padding:2rem;color:var(--text3);font-size:.75rem;border
 <nav>
   <div class="nav-inner">
     <div class="logo">Hook<span>Smith</span></div>
-    <a href="https://brightchibvu.gumroad.com/l/mdxwqx" target="_blank" class="nav-cta">Get 25 Prompts â $7</a>
+    <a href="https://brightchibvu.gumroad.com/l/mdxwqx" target="_blank" class="nav-cta">Get 25 Prompts Ã¢ÂÂ $7</a>
   </div>
 </nav>
 <section class="hero">
-  <div class="badge">100% Free â No Sign Up</div>
+  <div class="badge">100% Free Ã¢ÂÂ No Sign Up</div>
   <h1>Stop guessing.<br><span class="highlight">Generate hooks that stop the scroll.</span></h1>
   <p class="subtitle">AI-powered hooks for every platform. Pick your style, enter your topic, get 5 ready-to-use hooks in seconds.</p>
 </section>
@@ -148,26 +148,26 @@ footer{text-align:center;padding:2rem;color:var(--text3);font-size:.75rem;border
 </div>
 <div class="upsell" id="upsell">
   <h3>Want 25 more prompts like this?</h3>
-  <p>Full prompt pack for content creators â scripts, hooks, video ideas, titles & SEO, and content planning. Ready to copy-paste into Claude or ChatGPT.</p>
-  <a href="https://brightchibvu.gumroad.com/l/mdxwqx" target="_blank" class="upsell-btn">Get the Full Pack â $7</a>
-  <div class="upsell-price">One-time purchase Â· Instant PDF download</div>
+  <p>Full prompt pack for content creators Ã¢ÂÂ scripts, hooks, video ideas, titles & SEO, and content planning. Ready to copy-paste into Claude or ChatGPT.</p>
+  <a href="https://brightchibvu.gumroad.com/l/mdxwqx" target="_blank" class="upsell-btn">Get the Full Pack Ã¢ÂÂ $7</a>
+  <div class="upsell-price">One-time purchase ÃÂ· Instant PDF download</div>
 </div>
 <footer>HookSmith &mdash; Built by Bright &middot; Powered by AI</footer>
 <script>
 let selectedPlatform='youtube',selectedStyle='curiosity',currentHooks=[];
 document.getElementById('platforms').addEventListener('click',e=>{const p=e.target.closest('.pill');if(!p)return;document.querySelectorAll('.pill').forEach(x=>x.classList.remove('active'));p.classList.add('active');selectedPlatform=p.dataset.platform});
 document.getElementById('styles').addEventListener('click',e=>{const c=e.target.closest('.style-chip');if(!c)return;document.querySelectorAll('.style-chip').forEach(x=>x.classList.remove('active'));c.classList.add('active');selectedStyle=c.dataset.style});
-const platformInfo={youtube:{name:'YouTube',context:'YouTube video titles and opening lines. 8-14 words, optimized for click-through rate and curiosity.'},tiktok:{name:'TikTok',context:'TikTok video opening lines (first 2 seconds). Ultra-short, punchy, pattern-interrupting. Under 10 words each.'},instagram:{name:'Instagram',context:'Instagram Reels/carousel first slides. Visual-friendly, emoji-optional, designed to stop mid-scroll.'},twitter:{name:'X/Twitter',context:'X (Twitter) post openings. Sharp, bold, slightly provocative. Under 15 words. No hashtags.'},linkedin:{name:'LinkedIn',context:'LinkedIn post opening lines. Professional but scroll-stopping. Thought-leadership tone. Under 15 words.'},threads:{name:'Threads',context:'Threads post hooks. Conversational, authentic, slightly casual. Under 12 words.'}};
-const styleInfo={curiosity:'Use curiosity gaps â make the reader NEED to know what comes next. Withhold the key detail.',controversial:'Use bold contrarian takes â challenge common beliefs. Slightly provocative but not offensive.',storytelling:'Start with a micro-story or personal moment. Pull the reader into a scene immediately.',listicle:'Use numbered formats and specific quantities. "7 things...", "The 3 mistakes..."',challenge:'Challenge the audience directly. Use "you" language. Create urgency or a dare.',emotional:'Tap into deep emotions â fear of missing out, aspiration, nostalgia, frustration, hope.'};
+const platformInfo={youtube:{name:'YouTube',context:'YouTube hooks (title + opening line). 8-14 words with specific numbers, power words, or brackets. Use curiosity gaps, timeframes, and emotional triggers. Example quality: I Made $3,000 in 7 Days Doing This.'},tiktok:{name:'TikTok',context:'TikTok opening lines (first 1-2 seconds). Pattern-interrupting, impossible to scroll past. Use open loops, shocking claims, direct address. Under 12 words. Example: Nobody is talking about this.'},instagram:{name:'Instagram',context:'Instagram Reels first-slide text. Stop mid-scroll with relatable pain points, aspirational outcomes, specific details. Example: The routine that changed my skin in 2 weeks.'},twitter:{name:'X/Twitter',context:'X/Twitter hooks that spark replies. Hot takes, counterintuitive truths, specific observations. Under 20 words. No hashtags.'},linkedin:{name:'LinkedIn',context:'LinkedIn hooks that make professionals click see more. Bold revelations, contrarian business insights, emotionally honest. Under 20 words.'},threads:{name:'Threads',context:'Threads hooks. Opinion-forward, like texting a smart friend. Authentic, slightly provocative. Under 15 words.'}};
+const styleInfo={curiosity:'Create an irresistible curiosity gap with SPECIFIC details. Reveal just enough to hook but withhold the payoff. Include a number, timeframe, or outcome. Never be vague Ã¢ÂÂ make the reader NEED to know what comes next. Withhold the key detail.',controversial:'Make a bold contrarian claim that challenges what everyone believes. Be specific, back it with implied experience Ã¢ÂÂ challenge common beliefs. Slightly provocative but not offensive.',storytelling:'Open mid-scene with a vivid micro-moment. Use time anchors, sensory details, or turning points. First person. Example energy: At 3am last Tuesday my phone buzzed with a message that changed everything.',listicle:'Use specific odd numbers with surprising qualifiers. The number itself should create curiosity. Add urgency or exclusivity. Example energy: 7 tools I use daily that nobody talks about.',challenge:'Directly challenge the viewer with bold you-statements. Create a dare, test, or uncomfortable truth they cannot ignore. Be specific and personal.',emotional:'Tap into a deep universal emotion with a CONCRETE personal detail. Regret, ambition, fear of being left behind, desire for freedom. Be specific not generic Ã¢ÂÂ fear of missing out, aspiration, nostalgia, frustration, hope.'};
 async function generate(){
   const topic=document.getElementById('topic').value.trim(),errorEl=document.getElementById('error'),btn=document.getElementById('generateBtn');
   errorEl.classList.remove('show');
-  if(!topic){errorEl.textContent='Enter a topic first â what is your content about?';errorEl.classList.add('show');return}
+  if(!topic){errorEl.textContent='Enter a topic first Ã¢ÂÂ what is your content about?';errorEl.classList.add('show');return}
   btn.classList.add('loading');btn.disabled=true;
   const platform=platformInfo[selectedPlatform],style=styleInfo[selectedStyle];
-  const prompt=`You are a viral content strategist. Generate exactly 5 hooks for ${platform.name} about: "${topic}"\n\nPlatform rules: ${platform.context}\nStyle: ${style}\n\nReturn ONLY a JSON array of 5 strings. No markdown, no explanation, no numbering. Just the raw JSON array.\nExample format: ["Hook one","Hook two","Hook three","Hook four","Hook five"]`;
+  const prompt=`You are an elite viral content strategist who has written hooks for creators with millions of followers. Generate exactly 5 hooks for ${platform.name} about: "${topic}"\n\nPlatform rules: ${platform.context}\nHook style: ${style}\n\nCRITICAL RULES FOR EVERY HOOK:\n- Each hook MUST include at least one specific detail (a number, timeframe, dollar amount, percentage, or concrete outcome)\n- Each hook MUST use a different technique (curiosity gap, bold claim, question, story opener, controversial take)\n- NEVER use generic filler phrases like "you wont believe" or "this changed my life" without specifics\n- Each hook should feel like it was written by a human creator, not AI — natural, confident, slightly imperfect\n- Make each hook so specific that the reader thinks the creator has real personal experience with the topic\n- Every hook should create an OPEN LOOP that can only be closed by consuming the content\n\nReturn ONLY a JSON array of 5 strings. No markdown, no explanation. Just the raw JSON array.\nExample format: ["Hook one","Hook two","Hook three","Hook four","Hook five"]`;
   try{
-    const r=await fetch('https://text.pollinations.ai/',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({messages:[{role:'system',content:'You are a JSON-only response bot. You ONLY return valid JSON arrays of strings. Never include markdown backticks, explanations, or any other text.'},{role:'user',content:prompt}],model:'openai',jsonMode:true})});
+    const r=await fetch('https://text.pollinations.ai/',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({messages:[{role:'system',content:'You are a JSON-only response bot. Return ONLY a valid JSON array of 5 strings. Each string must be a complete, detailed, specific hook. No markdown backticks, no explanations, no numbering. Just the JSON array.'},{role:'user',content:prompt}],model:'openai',jsonMode:true})});
     if(!r.ok)throw new Error('API request failed');
     let text=await r.text();
     text=text.replace(/```json\s*/gi,'').replace(/```\s*/gi,'').trim();
@@ -179,7 +179,7 @@ async function generate(){
     if(hooks.length===0){hooks=text.split('\n').filter(l=>l.trim()).map(l=>l.replace(/^\s*\d+[\.\)\-:]\s*/,'').replace(/^["']+|["']+$/g,'').trim()).filter(l=>l.length>10).slice(0,5)}
     if(hooks.length===0)throw new Error('No valid hooks returned');
     currentHooks=hooks.slice(0,5);renderHooks(currentHooks);
-  }catch(err){console.error(err);errorEl.textContent='Generation failed â try again in a moment. The AI might be busy.';errorEl.classList.add('show')}
+  }catch(err){console.error(err);errorEl.textContent='Generation failed Ã¢ÂÂ try again in a moment. The AI might be busy.';errorEl.classList.add('show')}
   finally{btn.classList.remove('loading');btn.disabled=false}
 }
 function renderHooks(hooks){
